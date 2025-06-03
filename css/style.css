@@ -785,3 +785,25 @@ font-family: "Raleway", sans-serif;
     border: none;
 
 }
+
+.icon-modal{
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.is-open{
+    padding: 72px 24px 24px 24px;
+
+}
+
+.backdrop-text{
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+
+        line-height: 1,5px;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+        margin-bottom: 16px;
+        
+}
