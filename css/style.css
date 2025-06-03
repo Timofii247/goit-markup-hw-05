@@ -802,7 +802,7 @@ font-family: "Raleway", sans-serif;
         font-weight: 500;
         font-size: 16px;
 
-        line-height: 1,5;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
@@ -840,19 +840,22 @@ font-family: "Raleway", sans-serif;
 }
 
 .input-box{
-  position: absolute;  
+  position: relative;  
 }
 
 .icon-from-input{
-   
+    position: absolute;
+     top: 50%;
     left: 16px;
-    top: 50%;
+   
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
-.input,.icon-from-input:focus{
-    fill: #4D5AE5;
+
+
+.input:focus+.icon-from-input {
+    fill: #4d5ae5;
 
 }
