@@ -839,8 +839,12 @@ font-family: "Raleway", sans-serif;
     border-color: #4D5AE5;
 }
 
+.input-box{
+  position: absolute;  
+}
+
 .icon-from-input{
-    position: absolute;
+   
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
@@ -850,5 +854,5 @@ font-family: "Raleway", sans-serif;
 
 .input,.icon-from-input:focus{
     fill: #4D5AE5;
-    
+
 }
