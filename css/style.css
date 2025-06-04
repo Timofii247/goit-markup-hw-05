@@ -709,7 +709,6 @@ font-family: "Raleway", sans-serif;
     fill: #f4f4fd;
 }
 
-.form-container {}
 
 .form-text {
     margin-bottom: 16px;
@@ -749,6 +748,7 @@ font-family: "Raleway", sans-serif;
 
  .btn-subscribe{
     font-family: "Roboto", sans-serif;
+    font-weight: 500;
     min-width: 165px;
     height: 40px;
     display: flex;
@@ -768,7 +768,7 @@ font-size: 16px;
 
  .telegram{
     margin-left: 16px;
-    
+
  }
 /* difdoij */
 
