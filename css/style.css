@@ -908,14 +908,13 @@ color: #8e8f99;
 
 }
 
-input:checked+label .checkbox-icon {
+input#user-privacy:checked~label[for="user-privacy"] .checkbox-icon {
     background-color: #404bbf;
 }
 
-input:checked+label .checkbox-icon svg {
+input#user-privacy:checked~label[for="user-privacy"] .checkbox-icon svg {
     fill: #F44F4D;
 }
-
 
 .privacy-link{
     color: #4d5ae5;
@@ -934,4 +933,5 @@ input:checked+label .checkbox-icon svg {
     background-color: #4D5AE5;
     border: none;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
