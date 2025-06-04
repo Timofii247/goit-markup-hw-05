@@ -908,11 +908,14 @@ color: #8e8f99;
 
 }
 
-#user-privacy:checked+.label-checkbox .checkbox-icon {
-    background-color: var(--active-bg);
-    border: none;
-    fill: var(--icon-fill);
+input:checked+label .checkbox-icon {
+    background-color: #404bbf;
 }
+
+input:checked+label .checkbox-icon svg {
+    fill: #F44F4D;
+}
+
 
 .privacy-link{
     color: #4d5ae5;
